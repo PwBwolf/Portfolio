@@ -1,12 +1,15 @@
 var map = {
     'app': 'js/app',
     'rxjs': 'js/vendor/rxjs',
-    '@angular': 'js/vendor/@angular'
+    '@angular': 'js/vendor/@angular',
+    'ng2-bootstrap': 'js/vendor/ng2-bootstrap',
+    'moment': 'js/vendor/moment/moment.js'
 };
 
 var packages = {
     'app': { main: 'boot.js', defaultExtension: 'js' },
-    'rxjs': { defaultExtension: 'js' }
+    'rxjs': { defaultExtension: 'js' },
+    'ng2-bootstrap': { defaultExtension: 'js' }
 };
 
 var packageNames = [
