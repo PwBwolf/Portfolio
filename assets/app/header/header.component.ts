@@ -4,7 +4,7 @@ import {Component} from "@angular/core";
     moduleId: module.id,
     selector: 'my-header',
     templateUrl: 'header.component.html',
-    styleUrl: ['header.component.css']
+    styleUrls: ['header.component.css']
 })
 export class HeaderComponent {
     //will be used to check if we are on the home page, want to hide for large background image

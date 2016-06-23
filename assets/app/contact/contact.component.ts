@@ -4,7 +4,7 @@ import {Component} from "@angular/core";
     moduleId: module.id,
     selector: 'contact-me',
     templateUrl: 'contact.component.html',
-    styleUrl: ['contact.component.css']
+    styleUrls: ['contact.component.css']
 })
 export class ContactComponent {
 

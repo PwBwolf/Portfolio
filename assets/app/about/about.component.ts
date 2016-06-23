@@ -4,8 +4,8 @@ import {Component} from "@angular/core";
     moduleId: module.id,
     selector: 'about-me',
     templateUrl: 'about.component.html',
-    styleUrl: ['about.component.css']
+    styleUrls: ['about.component.css']
 })
 export class AboutComponent {
 
-}   
+}

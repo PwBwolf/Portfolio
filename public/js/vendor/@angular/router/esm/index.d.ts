@@ -1,15 +1,14 @@
-/**
- * @module
- * @description
- * Maps application URLs into application states, to support deep-linking and navigation.
- */
-export { ROUTER_DIRECTIVES } from './src/directives/router_directives';
-export { RouterLink } from './src/directives/router_link';
-export { RouterOutlet } from './src/directives/router_outlet';
-export { CanDeactivate, OnActivate } from './src/interfaces';
-export { Routes } from './src/metadata/decorators';
-export { Route } from './src/metadata/metadata';
-export { Router, RouterOutletMap } from './src/router';
-export { ROUTER_PROVIDERS } from './src/router_providers';
-export { DefaultRouterUrlSerializer, RouterUrlSerializer } from './src/router_url_serializer';
-export { RouteSegment, RouteTree, Tree, UrlSegment, UrlTree } from './src/segments';
+import { RouterLink } from './directives/router_link';
+import { RouterLinkActive } from './directives/router_link_active';
+import { RouterOutlet } from './directives/router_outlet';
+export { ExtraOptions } from './common_router_providers';
+export { Route, RouterConfig } from './config';
+export { CanActivate, CanDeactivate } from './interfaces';
+export { Event, NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Router, RoutesRecognized } from './router';
+export { RouterOutletMap } from './router_outlet_map';
+export { provideRouter } from './router_providers';
+export { ActivatedRoute, ActivatedRouteSnapshot, RouterState, RouterStateSnapshot } from './router_state';
+export { PRIMARY_OUTLET, Params } from './shared';
+export { DefaultUrlSerializer, UrlSerializer } from './url_serializer';
+export { UrlPathWithParams, UrlTree } from './url_tree';
+export declare const ROUTER_DIRECTIVES: (typeof RouterOutlet | typeof RouterLink | typeof RouterLinkActive)[];

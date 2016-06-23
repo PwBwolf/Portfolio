@@ -2,34 +2,209 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8314f7de-89aa-436c-9efc-2773c5851651" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/about/about.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/about/about.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/about/about.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/app.routes.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/contact/contact.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/contact/contact.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/contact/contact.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/header/header.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/header/header.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/header/home.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/home/home.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/home/home.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/home/home.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/skills/d3Sunshine/d3.Sunshine.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/skills/d3Sunshine/d3Sunshine.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/skills/d3Sunshine/d3Sunshine.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/skills/skills.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/skills/skills.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/app/skills/skills.component.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router.umd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router.umd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/constants.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/constants.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/constants.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/core_private.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/core_private.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/core_private.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/core_private.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/directives/router_directives.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/directives/router_directives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/directives/router_directives.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/directives/router_directives.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/directives/router_link.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/directives/router_link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/directives/router_link.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/directives/router_link.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/directives/router_outlet.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/directives/router_outlet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/directives/router_outlet.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/directives/router_outlet.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/async.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/async.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/base_wrapped_exception.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/base_wrapped_exception.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/base_wrapped_exception.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/collection.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/collection.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/collection.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/exception_handler.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/exception_handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/exception_handler.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/exceptions.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/exceptions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/exceptions.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/exceptions.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/lang.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/lang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/lang.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/lang.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/promise.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/facade/promise.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/interfaces.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/interfaces.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/interfaces.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/lifecycle_reflector.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/lifecycle_reflector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/lifecycle_reflector.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/link.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/link.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/metadata/decorators.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/metadata/decorators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/metadata/decorators.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/metadata/decorators.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/metadata/metadata.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/metadata/metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/metadata/metadata.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/recognize.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/recognize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/recognize.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router_providers.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router_providers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router_providers.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router_providers.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router_providers_common.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router_providers_common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router_providers_common.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router_providers_common.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router_url_serializer.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router_url_serializer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/router_url_serializer.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/segments.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/segments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/segments.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/src/segments.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/testing.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/testing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/testing.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/testing/router_testing_providers.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/testing/router_testing_providers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/testing/router_testing_providers.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/testing/router_testing_providers.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/constants.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/constants.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/constants.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/core_private.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/core_private.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/core_private.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/core_private.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_directives.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_directives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_directives.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_directives.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_link.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_link.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_link.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_outlet.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_outlet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_outlet.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_outlet.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/async.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/async.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/base_wrapped_exception.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/base_wrapped_exception.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/base_wrapped_exception.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/collection.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/collection.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/collection.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/exception_handler.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/exception_handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/exception_handler.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/exceptions.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/exceptions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/exceptions.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/exceptions.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/lang.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/lang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/lang.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/lang.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/promise.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/facade/promise.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/interfaces.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/interfaces.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/interfaces.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/lifecycle_reflector.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/lifecycle_reflector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/lifecycle_reflector.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/link.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/link.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/metadata/decorators.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/metadata/decorators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/metadata/decorators.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/metadata/decorators.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/metadata/metadata.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/metadata/metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/metadata/metadata.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/recognize.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/recognize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/recognize.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_providers.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_providers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_providers.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_providers.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_providers_common.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_providers_common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_providers_common.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_providers_common.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_url_serializer.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_url_serializer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_url_serializer.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/segments.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/segments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/segments.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/segments.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/testing.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/testing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/testing.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/testing/router_testing_providers.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/testing/router_testing_providers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/testing/router_testing_providers.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@angular/router/testing/router_testing_providers.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.component.html" afterPath="$PROJECT_DIR$/assets/app/app.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.component.ts" afterPath="$PROJECT_DIR$/assets/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/boot.ts" afterPath="$PROJECT_DIR$/assets/app/boot.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/app.component.html" afterPath="$PROJECT_DIR$/public/js/app/app.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/app.component.js" afterPath="$PROJECT_DIR$/public/js/app/app.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/boot.js" afterPath="$PROJECT_DIR$/public/js/app/boot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/about/about.component.ts" afterPath="$PROJECT_DIR$/assets/app/about/about.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.routes.ts" afterPath="$PROJECT_DIR$/assets/app/app.routes.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/contact/contact.component.ts" afterPath="$PROJECT_DIR$/assets/app/contact/contact.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/header/header.component.ts" afterPath="$PROJECT_DIR$/assets/app/header/header.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/home/home.component.ts" afterPath="$PROJECT_DIR$/assets/app/home/home.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/router/esm/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/esm/index.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/esm/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/router/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/index.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/router/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/about/about.component.js" afterPath="$PROJECT_DIR$/public/js/app/about/about.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/app.routes.js" afterPath="$PROJECT_DIR$/public/js/app/app.routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/contact/contact.component.js" afterPath="$PROJECT_DIR$/public/js/app/contact/contact.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/header/header.component.js" afterPath="$PROJECT_DIR$/public/js/app/header/header.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/home/home.component.js" afterPath="$PROJECT_DIR$/public/js/app/home/home.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/index.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/index.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/package.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/package.json" />
     </list>
     <ignored path="pwbPortfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,8 +240,8 @@
       <file leaf-file-name="app.routes.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/app.routes.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -74,11 +249,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/app/about/about.component.ts">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="525">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -99,16 +274,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/header/header.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -147,18 +312,18 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/public/js/app/app.component.js" />
         <option value="$PROJECT_DIR$/views/index.hbs" />
-        <option value="$PROJECT_DIR$/assets/app/home/home.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/assets/app/boot.ts" />
-        <option value="$PROJECT_DIR$/assets/app/contact/contact.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/header/header.component.html" />
         <option value="$PROJECT_DIR$/assets/app/home/home.component.css" />
-        <option value="$PROJECT_DIR$/assets/app/header/header.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/about/about.html" />
         <option value="$PROJECT_DIR$/assets/app/app.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/app.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/app.routes.ts" />
         <option value="$PROJECT_DIR$/assets/app/about/about.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/contact/contact.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/header/header.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/app.routes.ts" />
       </list>
     </option>
   </component>
@@ -439,12 +604,12 @@
       <option name="presentableId" value="Default" />
       <updated>1466536878931</updated>
       <workItem from="1466536880084" duration="10380000" />
-      <workItem from="1466599945115" duration="10378000" />
+      <workItem from="1466599945115" duration="11286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20758000" />
+    <option name="totallyTimeSpent" value="21666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="6" />
@@ -563,14 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/app.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -643,22 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/contact/contact.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -726,26 +867,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/systemjs.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="32" column="30" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/header/header.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -760,20 +885,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/about/about.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/contact/contact.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/header/header.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/systemjs.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/app.routes.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/about/about.component.ts">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
           <folding />
         </state>
       </provider>
