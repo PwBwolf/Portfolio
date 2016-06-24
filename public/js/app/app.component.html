@@ -1,8 +1,8 @@
 <div class="my-app-div">
-    <!--<my-header>-->
+    <my-header *ngIf="!isActiveRoute('/')">
 
-    <!--</my-header>-->
-    <router-outlet>
+    </my-header>
+    <router-outlet >
 
     </router-outlet>
 </div>

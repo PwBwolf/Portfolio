@@ -20,7 +20,15 @@ a {
 }
 
 .wolf img {
+  top: -10px;
   width: 50px;
   left: -25px;
   position: relative;
+}
+
+@media (max-width: 768px) {
+    .wolf {
+      left: 20px;
+      top: 0;
+    }
 }

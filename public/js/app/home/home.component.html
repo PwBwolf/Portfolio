@@ -10,20 +10,21 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
+
             <a class="navbar-brand wolf">
                 <img alt="Brand" src="../../../images/wolf-emblem.png">
             </a>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
+                    <li><a [routerLink]="['']">Home</a></li>
+                    <li><a [routerLink]="['/about']">About Me</a></li>
                 </ul>
 
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a [routerLink]="['/skills']">Skills</a></li>
+                    <li><a [routerLink]="['/contact']">Contact</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -31,6 +32,16 @@
     <h3>Peter W Borodich</h3>
     <p>Full Stack Javascript Developer</p>
 </div>
+
+<div class="container">
+    <div class="featurette">
+        <img class="featurette-image pull-right" src="">
+        <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+</div>
+
+
 <p>Ut In Nulla Enim. Phasellus Molestie Magna</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed.</p>
 

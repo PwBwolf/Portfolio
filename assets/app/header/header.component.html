@@ -9,20 +9,21 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
+
         <a class="navbar-brand wolf">
             <img alt="Brand" src="../../../images/wolf-emblem.png">
         </a>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
+                <li><a [routerLink]="['']">Home</a></li>
+                <li><a [routerLink]="['/about']">About Me</a></li>
             </ul>
 
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a [routerLink]="['/skills']">Skills</a></li>
+                <li><a [routerLink]="['/contact']">Contact</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
