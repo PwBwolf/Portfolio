@@ -29,3 +29,23 @@ npm start
 ⋅⋅* Will run the gulp clean task which cleans out the public/js/ section of the application, this holds the production version code.
 4. **npm run build:production**
 ⋅⋅* Will run the gulp clean, minify the code and the build the system.js build file for production.
+
+NGINX setup to handle the routing.
+```
+server {
+    listen      80;
+    server_name localhost;
+    root /Users/peterborodich/Projects/pwbPortfolio/public;
+
+    location / {
+        proxy_pass http://127.0.0.1:3000/;
+        try_files $uri $uri/ /;
+    }
+
+    location ~* \.(css|js|gif|jpe?g|png)$ {
+        root /Users/peterborodich/Projects/pwbPortfolio/public;
+        expires 168h;
+    }
+
+}
+```

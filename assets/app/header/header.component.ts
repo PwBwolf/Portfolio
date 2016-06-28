@@ -5,7 +5,7 @@ import {ROUTER_DIRECTIVES} from "@angular/router";
     moduleId: module.id,
     selector: 'my-header',
     templateUrl: 'header.component.html',
-    styleUrls: ['header.component.css']
+    styleUrls: ['header.component.css'],
     directives: [ROUTER_DIRECTIVES]
 })
 export class HeaderComponent {

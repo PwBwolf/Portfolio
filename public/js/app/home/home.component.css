@@ -45,3 +45,23 @@
     font-size: 25px;
     color: white;
 }
+
+/*.home-featurette img {*/
+    /*position: relative;*/
+    /*float: left;*/
+    /*width:  400px;*/
+    /*height: 300px;*/
+    /*background-position: 50% 50%;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
+
+.crop {
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+}
+.crop img {
+    height: auto;
+    width: 400px;
+}
