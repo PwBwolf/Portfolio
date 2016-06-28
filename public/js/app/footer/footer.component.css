@@ -3,9 +3,13 @@
 }
 
 .footer {
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
+.footer-button {
+    width: 152px;
+}
 .footer .fa{
     color: black;
     margin-left: 8px;

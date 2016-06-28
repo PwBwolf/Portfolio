@@ -10,3 +10,8 @@
 #about-me {
     padding-bottom: 20px;
 }
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}

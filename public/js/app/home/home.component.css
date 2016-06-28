@@ -1,5 +1,5 @@
 .hero-home {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', cursive !important;
     color: white;
     height: 100vh;
     background-image: url("images/person-beach.jpg");
@@ -28,6 +28,7 @@
 
 .hero-home h3 {
     font-size: 55px;
+    font-weight: bold;
 }
 
 .hero-home p {

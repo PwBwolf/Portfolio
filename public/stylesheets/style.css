@@ -1,15 +1,18 @@
 body {
-
+  font-family: 'News Cycle', sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
+p {
+  font-size: 15px;
+}
 .navbar {
   background-color: transparent;
   background: transparent;
   border-color: transparent;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', cursive !important;
   font-size: 20px;
 }
 

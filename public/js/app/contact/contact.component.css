@@ -1,0 +1,13 @@
+.contact-jumbo {
+    background-image: url("images/sunset.png");
+    color: white;
+    min-height: 450px;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-glyp .fa {
+    color: black;
+    margin-left: 15px;
+}
