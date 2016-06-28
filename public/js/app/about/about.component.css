@@ -1,0 +1,12 @@
+.about-jumbo {
+    background-image: url("images/san-fran.jpg");
+    color: white;
+    min-height: 450px;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-me {
+    padding-bottom: 20px;
+}
