@@ -1,4 +1,5 @@
 .contact-jumbo {
+    font-family: 'Amatic SC', cursive !important;
     background-image: url("images/sunset.png");
     color: white;
     min-height: 450px;
@@ -7,7 +8,19 @@
     background-size: cover;
 }
 
+.contact-wrapper h3 {
+
+}
+
 .profile-glyp .fa {
     color: black;
     margin-left: 15px;
+}
+
+.profile-pic {
+    margin-left: 5px;
+}
+
+.address-wrapper {
+    text-align: center;
 }

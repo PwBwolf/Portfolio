@@ -1,11 +1,11 @@
 {
   "_args": [
     [
-      "ng2-bootstrap",
+      "ng2-bootstrap@^1.0.17",
       "/Users/peterborodich/Projects/pwbPortfolio"
     ]
   ],
-  "_from": "ng2-bootstrap@*",
+  "_from": "ng2-bootstrap@>=1.0.17 <2.0.0",
   "_id": "ng2-bootstrap@1.0.17",
   "_inCache": true,
   "_location": "/ng2-bootstrap",
@@ -22,10 +22,10 @@
   "_phantomChildren": {},
   "_requested": {
     "name": "ng2-bootstrap",
-    "raw": "ng2-bootstrap",
-    "rawSpec": "",
+    "raw": "ng2-bootstrap@^1.0.17",
+    "rawSpec": "^1.0.17",
     "scope": null,
-    "spec": "*",
+    "spec": ">=1.0.17 <2.0.0",
     "type": "range"
   },
   "_requiredBy": [
@@ -34,7 +34,7 @@
   "_resolved": "https://registry.npmjs.org/ng2-bootstrap/-/ng2-bootstrap-1.0.17.tgz",
   "_shasum": "474f987ec14e9c2bb2d5ad3dc22bbc10db1eaca1",
   "_shrinkwrap": null,
-  "_spec": "ng2-bootstrap",
+  "_spec": "ng2-bootstrap@^1.0.17",
   "_where": "/Users/peterborodich/Projects/pwbPortfolio",
   "author": {
     "email": "valorkin@gmail.com",

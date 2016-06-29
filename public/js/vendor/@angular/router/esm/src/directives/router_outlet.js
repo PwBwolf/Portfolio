@@ -1,32 +1,43 @@
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 import { Attribute, Directive, ReflectiveInjector, ViewContainerRef } from '@angular/core';
-import { DEFAULT_OUTLET_NAME } from '../constants';
-import { isBlank, isPresent } from '../facade/lang';
-import { RouterOutletMap } from '../router';
+import { RouterOutletMap } from '../router_outlet_map';
+import { PRIMARY_OUTLET } from '../shared';
 export class RouterOutlet {
-    constructor(parentOutletMap, _location, name) {
-        this._location = _location;
-        parentOutletMap.registerOutlet(isBlank(name) ? DEFAULT_OUTLET_NAME : name, this);
+    /**
+     * @internal
+     */
+    constructor(parentOutletMap, location, name) {
+        this.location = location;
+        parentOutletMap.registerOutlet(name ? name : PRIMARY_OUTLET, this);
+    }
+    get isActivated() { return !!this.activated; }
+    get component() {
+        if (!this.activated)
+            throw new Error('Outlet is not activated');
+        return this.activated.instance;
+    }
+    get activatedRoute() {
+        if (!this.activated)
+            throw new Error('Outlet is not activated');
+        return this._activatedRoute;
     }
     deactivate() {
-        this._activated.destroy();
-        this._activated = null;
+        if (this.activated) {
+            this.activated.destroy();
+            this.activated = null;
+        }
     }
-    /**
-     * Returns the loaded component.
-     */
-    get component() { return isPresent(this._activated) ? this._activated.instance : null; }
-    /**
-     * Returns true is the outlet is not empty.
-     */
-    get isActivated() { return isPresent(this._activated); }
-    /**
-     * Called by the Router to instantiate a new component.
-     */
-    activate(factory, providers, outletMap) {
+    activate(factory, activatedRoute, providers, outletMap) {
         this.outletMap = outletMap;
-        let inj = ReflectiveInjector.fromResolvedProviders(providers, this._location.parentInjector);
-        this._activated = this._location.createComponent(factory, this._location.length, inj, []);
-        return this._activated;
+        this._activatedRoute = activatedRoute;
+        const inj = ReflectiveInjector.fromResolvedProviders(providers, this.location.parentInjector);
+        this.activated = this.location.createComponent(factory, this.location.length, inj, []);
     }
 }
 /** @nocollapse */

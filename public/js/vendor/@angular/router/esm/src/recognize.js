@@ -1,164 +1,222 @@
-import { BaseException } from '@angular/core';
-import { DEFAULT_OUTLET_NAME } from './constants';
-import { reflector } from './core_private';
-import { ListWrapper, StringMapWrapper } from './facade/collection';
-import { isBlank, isPresent, stringify } from './facade/lang';
-import { PromiseWrapper } from './facade/promise';
-import { RoutesMetadata } from './metadata/metadata';
-import { RouteSegment, RouteTree, TreeNode, equalUrlSegments, rootNode } from './segments';
-export function recognize(componentResolver, rootComponent, url, existingTree) {
-    let matched = new _MatchResult(rootComponent, [url.root], {}, rootNode(url).children, []);
-    return _constructSegment(componentResolver, matched, rootNode(existingTree))
-        .then(roots => new RouteTree(roots[0]));
-}
-function _recognize(componentResolver, parentComponent, url, existingSegments) {
-    let metadata = _readMetadata(parentComponent); // should read from the factory instead
-    if (isBlank(metadata)) {
-        throw new BaseException(`Component '${stringify(parentComponent)}' does not have route configuration`);
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+import { Observable } from 'rxjs/Observable';
+import { of } from 'rxjs/observable/of';
+import { ActivatedRouteSnapshot, RouterStateSnapshot } from './router_state';
+import { PRIMARY_OUTLET } from './shared';
+import { UrlSegment, mapChildrenIntoArray } from './url_tree';
+import { last, merge } from './utils/collection';
+import { TreeNode } from './utils/tree';
+class NoMatch {
+    constructor(segment = null) {
+        this.segment = segment;
     }
-    let match;
+}
+export function recognize(rootComponentType, config, urlTree, url) {
     try {
-        match = _match(metadata, url);
+        const children = processSegment(config, urlTree.root, {}, PRIMARY_OUTLET);
+        const root = new ActivatedRouteSnapshot([], {}, PRIMARY_OUTLET, rootComponentType, null, urlTree.root, -1);
+        const rootNode = new TreeNode(root, children);
+        return of(new RouterStateSnapshot(url, rootNode, urlTree.queryParams, urlTree.fragment));
     }
     catch (e) {
-        return PromiseWrapper.reject(e, null);
-    }
-    let segmentsWithRightOutlet = existingSegments.filter(r => r.value.outlet == match.outlet);
-    let segmentWithRightOutlet = segmentsWithRightOutlet.length > 0 ? segmentsWithRightOutlet[0] : null;
-    let main = _constructSegment(componentResolver, match, segmentWithRightOutlet);
-    let aux = _recognizeMany(componentResolver, parentComponent, match.aux, existingSegments)
-        .then(_checkOutletNameUniqueness);
-    return PromiseWrapper.all([main, aux]).then(ListWrapper.flatten);
-}
-function _recognizeMany(componentResolver, parentComponent, urls, existingSegments) {
-    let recognized = urls.map(u => _recognize(componentResolver, parentComponent, u, existingSegments));
-    return PromiseWrapper.all(recognized).then(ListWrapper.flatten);
-}
-function _constructSegment(componentResolver, matched, existingSegment) {
-    return componentResolver.resolveComponent(matched.component).then(factory => {
-        let segment = _createOrReuseSegment(matched, factory, existingSegment);
-        let existingChildren = isPresent(existingSegment) ? existingSegment.children : [];
-        if (matched.leftOverUrl.length > 0) {
-            return _recognizeMany(componentResolver, factory.componentType, matched.leftOverUrl, existingChildren)
-                .then(children => [new TreeNode(segment, children)]);
+        if (e instanceof NoMatch) {
+            return new Observable((obs) => obs.error(new Error(`Cannot match any routes: '${e.segment}'`)));
         }
         else {
-            return _recognizeLeftOvers(componentResolver, factory.componentType, existingChildren)
-                .then(children => [new TreeNode(segment, children)]);
+            return new Observable((obs) => obs.error(e));
         }
-    });
+    }
 }
-function _createOrReuseSegment(matched, factory, segmentNode) {
-    let segment = isPresent(segmentNode) ? segmentNode.value : null;
-    if (isPresent(segment) && equalUrlSegments(segment.urlSegments, matched.consumedUrlSegments) &&
-        StringMapWrapper.equals(segment.parameters, matched.parameters) &&
-        segment.outlet == matched.outlet && factory.componentType == segment.type) {
-        return segment;
+function processSegment(config, segment, extraParams, outlet) {
+    if (segment.pathsWithParams.length === 0 && segment.hasChildren()) {
+        return processSegmentChildren(config, segment, extraParams);
     }
     else {
-        return new RouteSegment(matched.consumedUrlSegments, matched.parameters, matched.outlet, factory.componentType, factory);
+        return processPathsWithParams(config, segment, 0, segment.pathsWithParams, extraParams, outlet);
     }
 }
-function _recognizeLeftOvers(componentResolver, parentComponent, existingSegments) {
-    return componentResolver.resolveComponent(parentComponent).then(factory => {
-        let metadata = _readMetadata(factory.componentType);
-        if (isBlank(metadata)) {
-            return [];
-        }
-        let r = metadata.routes.filter(r => r.path == '' || r.path == '/');
-        if (r.length === 0) {
-            return PromiseWrapper.resolve([]);
-        }
-        else {
-            let segmentsWithMatchingOutlet = existingSegments.filter(r => r.value.outlet == DEFAULT_OUTLET_NAME);
-            let segmentWithMatchingOutlet = segmentsWithMatchingOutlet.length > 0 ? segmentsWithMatchingOutlet[0] : null;
-            let existingChildren = isPresent(segmentWithMatchingOutlet) ? segmentWithMatchingOutlet.children : [];
-            return _recognizeLeftOvers(componentResolver, r[0].component, existingChildren)
-                .then(children => {
-                return componentResolver.resolveComponent(r[0].component).then(factory => {
-                    let segment = _createOrReuseSegment(new _MatchResult(r[0].component, [], {}, [], []), factory, segmentWithMatchingOutlet);
-                    return [new TreeNode(segment, children)];
-                });
-            });
-        }
+function processSegmentChildren(config, segment, extraParams) {
+    const children = mapChildrenIntoArray(segment, (child, childOutlet) => processSegment(config, child, extraParams, childOutlet));
+    checkOutletNameUniqueness(children);
+    sortActivatedRouteSnapshots(children);
+    return children;
+}
+function sortActivatedRouteSnapshots(nodes) {
+    nodes.sort((a, b) => {
+        if (a.value.outlet === PRIMARY_OUTLET)
+            return -1;
+        if (b.value.outlet === PRIMARY_OUTLET)
+            return 1;
+        return a.value.outlet.localeCompare(b.value.outlet);
     });
 }
-function _match(metadata, url) {
-    for (let r of metadata.routes) {
-        let matchingResult = _matchWithParts(r, url);
-        if (isPresent(matchingResult)) {
-            return matchingResult;
+function processPathsWithParams(config, segment, pathIndex, paths, extraParams, outlet) {
+    for (let r of config) {
+        try {
+            return processPathsWithParamsAgainstRoute(r, segment, pathIndex, paths, extraParams, outlet);
+        }
+        catch (e) {
+            if (!(e instanceof NoMatch))
+                throw e;
         }
     }
-    let availableRoutes = metadata.routes.map(r => `'${r.path}'`).join(', ');
-    throw new BaseException(`Cannot match any routes. Current segment: '${url.value}'. Available routes: [${availableRoutes}].`);
+    throw new NoMatch(segment);
 }
-function _matchWithParts(route, url) {
-    let path = route.path.startsWith('/') ? route.path.substring(1) : route.path;
-    if (path == '*') {
-        return new _MatchResult(route.component, [], null, [], []);
+function processPathsWithParamsAgainstRoute(route, rawSegment, pathIndex, paths, parentExtraParams, outlet) {
+    if (route.redirectTo)
+        throw new NoMatch();
+    if ((route.outlet ? route.outlet : PRIMARY_OUTLET) !== outlet)
+        throw new NoMatch();
+    if (route.path === '**') {
+        const params = paths.length > 0 ? last(paths).parameters : {};
+        const snapshot = new ActivatedRouteSnapshot(paths, merge(parentExtraParams, params), outlet, route.component, route, getSourceSegment(rawSegment), getPathIndexShift(rawSegment) - 1);
+        return [new TreeNode(snapshot, [])];
     }
-    let parts = path.split('/');
-    let positionalParams = {};
-    let consumedUrlSegments = [];
-    let lastParent = null;
-    let lastSegment = null;
-    let current = url;
+    const { consumedPaths, parameters, extraParams, lastChild } = match(rawSegment, route, paths, parentExtraParams);
+    const rawSlicedPath = paths.slice(lastChild);
+    const childConfig = route.children ? route.children : [];
+    const { segment, slicedPath } = split(rawSegment, consumedPaths, rawSlicedPath, childConfig);
+    const snapshot = new ActivatedRouteSnapshot(consumedPaths, parameters, outlet, route.component, route, getSourceSegment(rawSegment), getPathIndexShift(rawSegment) + pathIndex + lastChild - 1);
+    if (slicedPath.length === 0 && segment.hasChildren()) {
+        const children = processSegmentChildren(childConfig, segment, extraParams);
+        return [new TreeNode(snapshot, children)];
+    }
+    else if (childConfig.length === 0 && slicedPath.length === 0) {
+        return [new TreeNode(snapshot, [])];
+    }
+    else {
+        const children = processPathsWithParams(childConfig, segment, pathIndex + lastChild, slicedPath, extraParams, PRIMARY_OUTLET);
+        return [new TreeNode(snapshot, children)];
+    }
+}
+function match(segment, route, paths, parentExtraParams) {
+    if (route.path === '') {
+        if (route.terminal && (segment.hasChildren() || paths.length > 0)) {
+            throw new NoMatch();
+        }
+        else {
+            return { consumedPaths: [], lastChild: 0, parameters: {}, extraParams: {} };
+        }
+    }
+    const path = route.path;
+    const parts = path.split('/');
+    const posParameters = {};
+    const consumedPaths = [];
+    let currentIndex = 0;
     for (let i = 0; i < parts.length; ++i) {
-        if (isBlank(current))
-            return null;
-        let p = parts[i];
-        let isLastSegment = i === parts.length - 1;
-        let isLastParent = i === parts.length - 2;
-        let isPosParam = p.startsWith(':');
-        if (!isPosParam && p != current.value.segment)
-            return null;
-        if (isLastSegment) {
-            lastSegment = current;
-        }
-        if (isLastParent) {
-            lastParent = current;
-        }
+        if (currentIndex >= paths.length)
+            throw new NoMatch();
+        const current = paths[currentIndex];
+        const p = parts[i];
+        const isPosParam = p.startsWith(':');
+        if (!isPosParam && p !== current.path)
+            throw new NoMatch();
         if (isPosParam) {
-            positionalParams[p.substring(1)] = current.value.segment;
+            posParameters[p.substring(1)] = current.path;
         }
-        consumedUrlSegments.push(current.value);
-        current = ListWrapper.first(current.children);
+        consumedPaths.push(current);
+        currentIndex++;
     }
-    let p = lastSegment.value.parameters;
-    let parameters = StringMapWrapper.merge(p, positionalParams);
-    let axuUrlSubtrees = isPresent(lastParent) ? lastParent.children.slice(1) : [];
-    return new _MatchResult(route.component, consumedUrlSegments, parameters, lastSegment.children, axuUrlSubtrees);
+    if (route.terminal && (segment.hasChildren() || currentIndex < paths.length)) {
+        throw new NoMatch();
+    }
+    const parameters = merge(parentExtraParams, merge(posParameters, consumedPaths[consumedPaths.length - 1].parameters));
+    const extraParams = route.component ? {} : parameters;
+    return { consumedPaths, lastChild: currentIndex, parameters, extraParams };
 }
-function _checkOutletNameUniqueness(nodes) {
-    let names = {};
+function checkOutletNameUniqueness(nodes) {
+    const names = {};
     nodes.forEach(n => {
-        let segmentWithSameOutletName = names[n.value.outlet];
-        if (isPresent(segmentWithSameOutletName)) {
-            let p = segmentWithSameOutletName.stringifiedUrlSegments;
-            let c = n.value.stringifiedUrlSegments;
-            throw new BaseException(`Two segments cannot have the same outlet name: '${p}' and '${c}'.`);
+        let routeWithSameOutletName = names[n.value.outlet];
+        if (routeWithSameOutletName) {
+            const p = routeWithSameOutletName.url.map(s => s.toString()).join('/');
+            const c = n.value.url.map(s => s.toString()).join('/');
+            throw new Error(`Two segments cannot have the same outlet name: '${p}' and '${c}'.`);
         }
         names[n.value.outlet] = n.value;
     });
-    return nodes;
 }
-class _MatchResult {
-    constructor(component, consumedUrlSegments, parameters, leftOverUrl, aux) {
-        this.component = component;
-        this.consumedUrlSegments = consumedUrlSegments;
-        this.parameters = parameters;
-        this.leftOverUrl = leftOverUrl;
-        this.aux = aux;
+function getSourceSegment(segment) {
+    let s = segment;
+    while (s._sourceSegment) {
+        s = s._sourceSegment;
     }
-    get outlet() {
-        return this.consumedUrlSegments.length === 0 || isBlank(this.consumedUrlSegments[0].outlet) ?
-            DEFAULT_OUTLET_NAME :
-            this.consumedUrlSegments[0].outlet;
+    return s;
+}
+function getPathIndexShift(segment) {
+    let s = segment;
+    let res = 0;
+    while (s._sourceSegment) {
+        s = s._sourceSegment;
+        res += segment._pathIndexShift;
+    }
+    return res;
+}
+function split(segment, consumedPaths, slicedPath, config) {
+    if (slicedPath.length > 0 &&
+        containsEmptyPathMatchesWithNamedOutlets(segment, slicedPath, config)) {
+        const s = new UrlSegment(consumedPaths, createChildrenForEmptyPaths(segment, consumedPaths, config, new UrlSegment(slicedPath, segment.children)));
+        s._sourceSegment = segment;
+        s._pathIndexShift = 0;
+        return { segment: s, slicedPath: [] };
+    }
+    else if (slicedPath.length === 0 && containsEmptyPathMatches(segment, slicedPath, config)) {
+        const s = new UrlSegment(segment.pathsWithParams, addEmptyPathsToChildrenIfNeeded(segment, slicedPath, config, segment.children));
+        s._sourceSegment = segment;
+        s._pathIndexShift = 0;
+        return { segment: s, slicedPath };
+    }
+    else {
+        return { segment, slicedPath };
     }
 }
-function _readMetadata(componentType) {
-    let metadata = reflector.annotations(componentType).filter(f => f instanceof RoutesMetadata);
-    return ListWrapper.first(metadata);
+function addEmptyPathsToChildrenIfNeeded(segment, slicedPath, routes, children) {
+    const res = {};
+    for (let r of routes) {
+        if (emptyPathMatch(segment, slicedPath, r) && !children[getOutlet(r)]) {
+            const s = new UrlSegment([], {});
+            s._sourceSegment = segment;
+            s._pathIndexShift = segment.pathsWithParams.length;
+            res[getOutlet(r)] = s;
+        }
+    }
+    return merge(children, res);
+}
+function createChildrenForEmptyPaths(segment, consumedPaths, routes, primarySegment) {
+    const res = {};
+    res[PRIMARY_OUTLET] = primarySegment;
+    primarySegment._sourceSegment = segment;
+    primarySegment._pathIndexShift = consumedPaths.length;
+    for (let r of routes) {
+        if (r.path === '') {
+            const s = new UrlSegment([], {});
+            s._sourceSegment = segment;
+            s._pathIndexShift = consumedPaths.length;
+            res[getOutlet(r)] = s;
+        }
+    }
+    return res;
+}
+function containsEmptyPathMatchesWithNamedOutlets(segment, slicedPath, routes) {
+    return routes
+        .filter(r => emptyPathMatch(segment, slicedPath, r) && getOutlet(r) !== PRIMARY_OUTLET)
+        .length > 0;
+}
+function containsEmptyPathMatches(segment, slicedPath, routes) {
+    return routes.filter(r => emptyPathMatch(segment, slicedPath, r)).length > 0;
+}
+function emptyPathMatch(segment, slicedPath, r) {
+    if ((segment.hasChildren() || slicedPath.length > 0) && r.terminal)
+        return false;
+    return r.path === '' && r.redirectTo === undefined;
+}
+function getOutlet(route) {
+    return route.outlet ? route.outlet : PRIMARY_OUTLET;
 }
 //# sourceMappingURL=recognize.js.map

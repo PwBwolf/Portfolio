@@ -1,26 +1,34 @@
-import { ROUTER_PROVIDERS_COMMON } from './router_providers_common';
 /**
- * A list of providers. To use the router, you must add this to your application.
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+import { PlatformLocation } from '@angular/common';
+import { BrowserPlatformLocation } from '@angular/platform-browser';
+import { provideRouter as provideRouter_ } from './common_router_providers';
+/**
+ * A list of {@link Provider}s. To use the router, you must add this to your application.
+ *
+ * ### Example
  *
  * ```
- * import {Component} from '@angular/core';
- * import {
- *   ROUTER_DIRECTIVES,
- *   ROUTER_PROVIDERS,
- *   Routes
- * } from '@angular/router';
- *
  * @Component({directives: [ROUTER_DIRECTIVES]})
- * @Routes([
- *  {...},
- * ])
  * class AppCmp {
  *   // ...
  * }
  *
- * bootstrap(AppCmp, [ROUTER_PROVIDERS]);
+ * const router = [
+ *   {path: '/home', component: Home}
+ * ];
+ *
+ * bootstrap(AppCmp, [provideRouter(router)]);
  * ```
  */
-// TODO: merge with router_providers_common.ts
-export const ROUTER_PROVIDERS = [ROUTER_PROVIDERS_COMMON];
+export function provideRouter(config, opts = {}) {
+    return [
+        { provide: PlatformLocation, useClass: BrowserPlatformLocation }, ...provideRouter_(config, opts)
+    ];
+}
 //# sourceMappingURL=router_providers.js.map

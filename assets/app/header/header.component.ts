@@ -1,16 +1,14 @@
 import {Component} from "@angular/core";
 import {ROUTER_DIRECTIVES} from "@angular/router";
+import { CollapseDirective } from 'ng2-bootstrap/ng2-bootstrap';
 
 @Component({
     moduleId: module.id,
     selector: 'my-header',
     templateUrl: 'header.component.html',
     styleUrls: ['header.component.css'],
-    directives: [ROUTER_DIRECTIVES]
+    directives: [ROUTER_DIRECTIVES, CollapseDirective]
 })
 export class HeaderComponent {
-    //will be used to check if we are on the home page, want to hide for large background image
-    isHomePage() {
-
-    };
+    public isCollapsed:boolean = true;
 }

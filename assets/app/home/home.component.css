@@ -26,6 +26,14 @@
     text-align: center;
 }
 
+.collapese-menu {
+    background-color: white;
+}
+
+.collapese-menu a {
+    color: #000000 !important;
+}
+
 .hero-home h3 {
     font-size: 55px;
     font-weight: bold;
