@@ -2,492 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8314f7de-89aa-436c-9efc-2773c5851651" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/about/about.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/app.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/app.routes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/contact/contact.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/footer/footer.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/header/header.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/home/home.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/skills/d3Sunshine/d3Sunshine.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/skills/skills.component.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/app.component.ts" afterPath="$PROJECT_DIR$/assets/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/contact/contact.component.css" afterPath="$PROJECT_DIR$/assets/app/contact/contact.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/contact/contact.component.html" afterPath="$PROJECT_DIR$/assets/app/contact/contact.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/header/header.component.html" afterPath="$PROJECT_DIR$/assets/app/header/header.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/header/header.component.ts" afterPath="$PROJECT_DIR$/assets/app/header/header.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/home/home.component.css" afterPath="$PROJECT_DIR$/assets/app/home/home.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/home/home.component.html" afterPath="$PROJECT_DIR$/assets/app/home/home.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/home/home.component.ts" afterPath="$PROJECT_DIR$/assets/app/home/home.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ng2-bootstrap/package.json" afterPath="$PROJECT_DIR$/node_modules/ng2-bootstrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/about/about.component.html" afterPath="$PROJECT_DIR$/assets/app/about/about.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/boot.ts" afterPath="$PROJECT_DIR$/assets/app/boot.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/skills/skills.component.html" afterPath="$PROJECT_DIR$/assets/app/skills/skills.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/www" afterPath="$PROJECT_DIR$/bin/www" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/about/about.component.html" afterPath="$PROJECT_DIR$/public/js/app/about/about.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/boot.js" afterPath="$PROJECT_DIR$/public/js/app/boot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/contact/contact.component.css" afterPath="$PROJECT_DIR$/public/js/app/contact/contact.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/contact/contact.component.html" afterPath="$PROJECT_DIR$/public/js/app/contact/contact.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/header/header.component.html" afterPath="$PROJECT_DIR$/public/js/app/header/header.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/home/home.component.css" afterPath="$PROJECT_DIR$/public/js/app/home/home.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/home/home.component.html" afterPath="$PROJECT_DIR$/public/js/app/home/home.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/bundles/common.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/bundles/common.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/bundles/common.umd.min.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/bundles/common.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/async.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/async.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/async.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/intl.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/intl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/intl.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/intl.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/lang.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/lang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/lang.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/lang.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/promise.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/promise.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/promise.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/promise.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/facade/promise.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/model.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/model.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/model.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/validators.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/validators.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/validators.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/forms-deprecated/validators.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/platform_location.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/platform_location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/platform_location.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/location/platform_location.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/async_pipe.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/async_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/async_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/async_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/async_pipe.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/async_pipe.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/date_pipe.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/date_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/date_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/date_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/date_pipe.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/date_pipe.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/i18n_plural_pipe.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/i18n_plural_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/i18n_plural_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/i18n_plural_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/i18n_select_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/i18n_select_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/lowercase_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/lowercase_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/number_pipe.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/number_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/number_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/number_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/replace_pipe.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/replace_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/replace_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/replace_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/replace_pipe.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/replace_pipe.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/slice_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/slice_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/uppercase_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/esm/src/pipes/uppercase_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/package.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/async.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/async.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/async.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/intl.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/intl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/intl.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/intl.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/lang.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/lang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/lang.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/lang.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/promise.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/promise.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/promise.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/promise.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/facade/promise.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/model.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/model.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/model.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/validators.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/validators.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/validators.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/forms-deprecated/validators.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/platform_location.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/platform_location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/platform_location.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/location/platform_location.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/async_pipe.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/async_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/async_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/async_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/async_pipe.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/async_pipe.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/date_pipe.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/date_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/date_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/date_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/date_pipe.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/date_pipe.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/i18n_plural_pipe.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/i18n_plural_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/i18n_plural_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/i18n_plural_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/i18n_select_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/i18n_select_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/lowercase_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/lowercase_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/number_pipe.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/number_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/number_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/number_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/replace_pipe.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/replace_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/replace_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/replace_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/replace_pipe.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/replace_pipe.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/slice_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/slice_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/uppercase_pipe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/common/src/pipes/uppercase_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/bundles/compiler.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/bundles/compiler.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/bundles/compiler.umd.min.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/bundles/compiler.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/assertions.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/assertions.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/assertions.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/assertions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/assertions.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/assertions.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/compile_metadata.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/compile_metadata.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/compile_metadata.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/compile_metadata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/compile_metadata.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/compile_metadata.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/compiler.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/compiler.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/config.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/config.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/config.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/config.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/config.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/directive_normalizer.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/directive_normalizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/directive_normalizer.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/directive_normalizer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/directive_resolver.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/directive_resolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/directive_resolver.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/directive_resolver.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/expression_parser/parser.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/expression_parser/parser.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/expression_parser/parser.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/expression_parser/parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/expression_parser/parser.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/expression_parser/parser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/async.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/async.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/async.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/lang.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/lang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/lang.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/lang.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/promise.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/promise.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/promise.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/promise.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/facade/promise.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/html_lexer.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/html_lexer.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/html_lexer.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/html_lexer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/html_lexer.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/html_lexer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/html_lexer.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/html_lexer.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/html_parser.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/html_parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/html_parser.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/html_parser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/expander.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/expander.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/expander.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/expander.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/expander.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/expander.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/i18n_html_parser.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/i18n_html_parser.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/i18n_html_parser.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/i18n_html_parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/i18n_html_parser.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/i18n_html_parser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/message_extractor.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/message_extractor.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/message_extractor.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/message_extractor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/message_extractor.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/message_extractor.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/shared.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/shared.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/shared.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/shared.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/shared.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/shared.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/xmb_serializer.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/xmb_serializer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/xmb_serializer.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/i18n/xmb_serializer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/metadata_resolver.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/metadata_resolver.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/metadata_resolver.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/metadata_resolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/metadata_resolver.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/metadata_resolver.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/pipe_resolver.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/pipe_resolver.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/pipe_resolver.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/pipe_resolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/pipe_resolver.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/pipe_resolver.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/pipe_resolver.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/pipe_resolver.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/schema/dom_element_schema_registry.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/schema/dom_element_schema_registry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/schema/dom_element_schema_registry.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/schema/dom_element_schema_registry.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/template_parser.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/template_parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/template_parser.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/template_parser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/template_parser.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/template_parser.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/util.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/util.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/util.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/util.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/util.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/util.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/util.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/view_compiler/compile_query.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/view_compiler/compile_query.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/view_compiler/compile_query.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/view_compiler/compile_query.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/view_compiler/view_builder.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/view_compiler/view_builder.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/view_resolver.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/view_resolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/view_resolver.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/src/view_resolver.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/testing/view_resolver_mock.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/testing/view_resolver_mock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/testing/view_resolver_mock.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/esm/testing/view_resolver_mock.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/package.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/assertions.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/assertions.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/assertions.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/assertions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/assertions.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/assertions.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/compile_metadata.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/compile_metadata.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/compile_metadata.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/compile_metadata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/compile_metadata.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/compile_metadata.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/compiler.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/compiler.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/config.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/config.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/config.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/config.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/config.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/directive_normalizer.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/directive_normalizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/directive_normalizer.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/directive_normalizer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/directive_resolver.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/directive_resolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/directive_resolver.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/directive_resolver.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/expression_parser/parser.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/expression_parser/parser.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/expression_parser/parser.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/expression_parser/parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/expression_parser/parser.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/expression_parser/parser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/async.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/async.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/async.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/lang.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/lang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/lang.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/lang.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/promise.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/promise.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/promise.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/promise.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/facade/promise.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/html_lexer.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/html_lexer.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/html_lexer.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/html_lexer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/html_lexer.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/html_lexer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/html_lexer.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/html_lexer.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/html_parser.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/html_parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/html_parser.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/html_parser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/expander.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/expander.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/expander.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/expander.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/expander.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/expander.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/i18n_html_parser.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/i18n_html_parser.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/i18n_html_parser.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/i18n_html_parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/i18n_html_parser.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/i18n_html_parser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/message_extractor.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/message_extractor.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/message_extractor.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/message_extractor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/message_extractor.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/message_extractor.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/shared.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/shared.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/shared.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/shared.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/shared.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/shared.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/xmb_serializer.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/xmb_serializer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/xmb_serializer.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/i18n/xmb_serializer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/metadata_resolver.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/metadata_resolver.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/metadata_resolver.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/metadata_resolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/metadata_resolver.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/metadata_resolver.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/pipe_resolver.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/pipe_resolver.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/pipe_resolver.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/pipe_resolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/pipe_resolver.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/pipe_resolver.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/pipe_resolver.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/pipe_resolver.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/schema/dom_element_schema_registry.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/schema/dom_element_schema_registry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/schema/dom_element_schema_registry.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/schema/dom_element_schema_registry.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/template_parser.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/template_parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/template_parser.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/template_parser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/template_parser.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/template_parser.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/util.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/util.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/util.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/util.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/util.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/util.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/util.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/view_compiler/compile_query.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/view_compiler/compile_query.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/view_compiler/compile_query.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/view_compiler/compile_query.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/view_compiler/view_builder.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/view_compiler/view_builder.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/view_resolver.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/view_resolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/view_resolver.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/src/view_resolver.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/testing/view_resolver_mock.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/testing/view_resolver_mock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/testing/view_resolver_mock.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/compiler/testing/view_resolver_mock.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/bundles/core.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/bundles/core.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/bundles/core.umd.min.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/bundles/core.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/index.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/index.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/application_ref.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/application_ref.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/application_ref.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/application_ref.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/application_ref.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/application_ref.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/application_ref.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/application_ref.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/di/decorators.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/di/decorators.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/di/decorators.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/di/decorators.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/di/decorators.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/di/decorators.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/async.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/async.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/async.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/lang.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/lang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/lang.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/lang.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/promise.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/promise.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/promise.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/promise.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/facade/promise.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/query_list.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/query_list.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/query_list.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/query_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/query_list.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/query_list.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/view.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/view.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/view_ref.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/view_ref.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/view_ref.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/linker/view_ref.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/directives.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/directives.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/directives.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/directives.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/directives.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/view.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/view.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/view.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/view.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/metadata/view.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/reflection/reflector.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/reflection/reflector.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/reflection/reflector.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/src/reflection/reflector.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing/test_injector.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing/test_injector.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing/test_injector.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing/test_injector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing/test_injector.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing/test_injector.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing/testing.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing/testing.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/esm/testing/testing.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/index.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/index.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/package.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/application_ref.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/application_ref.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/application_ref.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/application_ref.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/application_ref.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/application_ref.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/application_ref.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/application_ref.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/di/decorators.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/di/decorators.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/di/decorators.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/di/decorators.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/di/decorators.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/di/decorators.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/async.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/async.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/async.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/lang.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/lang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/lang.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/lang.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/promise.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/promise.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/promise.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/promise.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/facade/promise.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/query_list.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/query_list.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/query_list.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/query_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/query_list.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/query_list.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/view.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/view.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/view_ref.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/view_ref.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/view_ref.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/linker/view_ref.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/directives.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/directives.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/directives.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/directives.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/directives.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/view.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/view.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/view.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/view.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/metadata/view.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/reflection/reflector.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/reflection/reflector.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/reflection/reflector.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/src/reflection/reflector.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing/test_injector.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing/test_injector.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing/test_injector.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing/test_injector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing/test_injector.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing/test_injector.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing/testing.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing/testing.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/core/testing/testing.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/bundles/http.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/bundles/http.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/bundles/http.umd.min.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/bundles/http.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/backends/xhr_backend.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/backends/xhr_backend.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/backends/xhr_backend.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/backends/xhr_backend.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/facade/lang.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/facade/lang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/facade/lang.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/esm/src/facade/lang.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/package.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/backends/xhr_backend.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/backends/xhr_backend.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/backends/xhr_backend.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/backends/xhr_backend.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/facade/lang.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/facade/lang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/facade/lang.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/http/src/facade/lang.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.min.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/index.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/index.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/async.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/async.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/async.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/lang.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/lang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/lang.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/lang.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/promise.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/promise.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/promise.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/promise.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/esm/src/facade/promise.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/index.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/index.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/package.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/async.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/async.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/async.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/lang.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/lang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/lang.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/lang.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/promise.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/promise.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/promise.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/promise.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser-dynamic/src/facade/promise.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/bundles/platform-browser.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/bundles/platform-browser.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/bundles/platform-browser.umd.min.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/bundles/platform-browser.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/dom/debug/ng_probe.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/dom/debug/ng_probe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/dom/debug/ng_probe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/dom/debug/ng_probe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/dom/web_animations_driver.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/dom/web_animations_driver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/dom/web_animations_driver.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/dom/web_animations_driver.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/async.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/async.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/async.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/browser.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/browser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/lang.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/lang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/lang.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/lang.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/promise.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/promise.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/promise.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/promise.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/facade/promise.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/dom_sanitization_service.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/dom_sanitization_service.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/dom_sanitization_service.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/dom_sanitization_service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/dom_sanitization_service.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/dom_sanitization_service.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/html_sanitizer.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/html_sanitizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/html_sanitizer.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/html_sanitizer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/style_sanitizer.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/style_sanitizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/style_sanitizer.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/style_sanitizer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/url_sanitizer.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/url_sanitizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/url_sanitizer.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/security/url_sanitizer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/worker_render.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/worker_render.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/worker_render.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/worker_render.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/worker_render.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/src/worker_render.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/testing/browser_util.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/testing/browser_util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/testing/browser_util.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/esm/testing/browser_util.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/package.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/dom/debug/ng_probe.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/dom/debug/ng_probe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/dom/debug/ng_probe.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/dom/debug/ng_probe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/dom/web_animations_driver.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/dom/web_animations_driver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/dom/web_animations_driver.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/dom/web_animations_driver.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/async.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/async.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/async.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/browser.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/browser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/lang.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/lang.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/lang.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/lang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/lang.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/lang.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/lang.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/lang.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/promise.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/promise.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/promise.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/promise.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/facade/promise.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/dom_sanitization_service.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/dom_sanitization_service.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/dom_sanitization_service.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/dom_sanitization_service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/dom_sanitization_service.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/dom_sanitization_service.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/html_sanitizer.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/html_sanitizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/html_sanitizer.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/html_sanitizer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/style_sanitizer.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/style_sanitizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/style_sanitizer.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/style_sanitizer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/url_sanitizer.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/url_sanitizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/url_sanitizer.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/security/url_sanitizer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/worker_render.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/worker_render.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/worker_render.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/worker_render.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/worker_render.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/src/worker_render.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/testing/browser_util.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/testing/browser_util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/testing/browser_util.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/platform-browser/testing/browser_util.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/bundles/router.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/bundles/router.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/bundles/router.umd.min.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/bundles/router.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/index.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/index.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_link.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_link.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_link.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_link.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_link.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_link.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_link.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_outlet.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_outlet.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_outlet.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_outlet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_outlet.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_outlet.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_outlet.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/directives/router_outlet.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/interfaces.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/interfaces.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/interfaces.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/interfaces.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/interfaces.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/interfaces.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/recognize.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/recognize.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/recognize.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/recognize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/recognize.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/recognize.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router_providers.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router_providers.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router_providers.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router_providers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router_providers.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router_providers.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router_providers.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/esm/src/router_providers.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/index.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/index.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/index.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/package.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_link.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_link.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_link.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_link.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_link.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_link.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_link.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_outlet.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_outlet.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_outlet.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_outlet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_outlet.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_outlet.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_outlet.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/directives/router_outlet.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/interfaces.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/interfaces.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/interfaces.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/interfaces.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/interfaces.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/interfaces.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/recognize.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/recognize.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/recognize.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/recognize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/recognize.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/recognize.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router_providers.d.ts" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router_providers.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router_providers.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router_providers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router_providers.js.map" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router_providers.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router_providers.metadata.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/router/src/router_providers.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/upgrade/bundles/upgrade.umd.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/upgrade/bundles/upgrade.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/upgrade/bundles/upgrade.umd.min.js" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/upgrade/bundles/upgrade.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/@angular/upgrade/package.json" afterPath="$PROJECT_DIR$/public/js/vendor/@angular/upgrade/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor/ng2-bootstrap/package.json" afterPath="$PROJECT_DIR$/public/js/vendor/ng2-bootstrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/skills/skills.component.html" afterPath="$PROJECT_DIR$/public/js/app/skills/skills.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
     </list>
     <ignored path="pwbPortfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -508,34 +34,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.html">
+      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="495">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.css">
+      <file leaf-file-name="about.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/app/about/about.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="165">
+              <caret line="11" column="278" selection-start-line="11" selection-start-column="278" selection-end-line="11" selection-end-column="278" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.ts">
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="246">
+              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -565,7 +99,6 @@
         <option value="$PROJECT_DIR$/assets/app/footer/footer.test.sass" />
         <option value="$PROJECT_DIR$/public/js/app/header/header.component.html" />
         <option value="$PROJECT_DIR$/assets/app/header/header.component.css" />
-        <option value="$PROJECT_DIR$/assets/app/boot.ts" />
         <option value="$PROJECT_DIR$/assets/app/app.routes.ts" />
         <option value="$PROJECT_DIR$/routes/app.js" />
         <option value="/usr/local/etc/nginx/nginx.conf" />
@@ -578,12 +111,9 @@
         <option value="$PROJECT_DIR$/public/js/app/app.component.html" />
         <option value="$PROJECT_DIR$/public/js/app/contact/contact.component.css" />
         <option value="$PROJECT_DIR$/assets/app/app.component.html" />
-        <option value="$PROJECT_DIR$/assets/app/skills/skills.component.html" />
         <option value="$PROJECT_DIR$/assets/app/footer/footer.component.html" />
-        <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/assets/app/footer/footer.component.css" />
-        <option value="$PROJECT_DIR$/assets/app/about/about.component.html" />
         <option value="$PROJECT_DIR$/assets/app/about/about.component.css" />
         <option value="$PROJECT_DIR$/assets/app/header/header.component.html" />
         <option value="$PROJECT_DIR$/assets/app/app.component.ts" />
@@ -593,6 +123,11 @@
         <option value="$PROJECT_DIR$/assets/app/contact/contact.component.css" />
         <option value="$PROJECT_DIR$/assets/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/assets/app/home/home.component.css" />
+        <option value="$PROJECT_DIR$/assets/app/boot.ts" />
+        <option value="$PROJECT_DIR$/assets/app/skills/skills.component.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
+        <option value="$PROJECT_DIR$/assets/app/about/about.component.html" />
       </list>
     </option>
   </component>
@@ -662,7 +197,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -679,8 +214,18 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="pwbPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pwbPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -742,29 +287,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="header" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pwbPortfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pwbPortfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contact" />
+              <option name="myItemId" value="about" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -785,6 +308,7 @@
       <recent name="$PROJECT_DIR$/assets/app/contact" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/assets/app/skills" />
       <recent name="$PROJECT_DIR$/assets/app" />
@@ -859,18 +383,18 @@
       <option name="presentableId" value="Default" />
       <updated>1466536878931</updated>
       <workItem from="1466536880084" duration="10380000" />
-      <workItem from="1466599945115" duration="76431000" />
+      <workItem from="1466599945115" duration="79880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86811000" />
+    <option name="totallyTimeSpent" value="90260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -932,17 +456,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/app/footer/footer.test.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/header/header.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -983,16 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/boot.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app/home/home.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1029,14 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-763">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/systemjs.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1053,7 +548,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-343">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
@@ -1065,14 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="40" column="278" selection-start-line="40" selection-start-column="278" selection-end-line="40" selection-end-column="278" />
           <folding />
         </state>
       </provider>
@@ -1125,14 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/skills/skills.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1115">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/profile.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1160,14 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="8" column="109" selection-start-line="8" selection-start-column="109" selection-end-line="8" selection-end-column="109" />
           <folding />
         </state>
       </provider>
@@ -1250,14 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/about/about.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/header/header.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1298,13 +761,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.ts">
+    <entry file="file://$PROJECT_DIR$/assets/app/boot.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#78#140#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,10 +787,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.html">
+    <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/skills/skills.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="39" column="225" selection-start-line="39" selection-start-column="225" selection-end-line="39" selection-end-column="225" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/about/about.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="278" selection-start-line="11" selection-start-column="278" selection-end-line="11" selection-end-column="278" />
           <folding />
         </state>
       </provider>
